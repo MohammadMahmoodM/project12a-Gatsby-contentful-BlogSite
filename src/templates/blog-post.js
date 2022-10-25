@@ -6,8 +6,8 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import SEO from "../components/seo"
 
 export const query = graphql`
-  query {
-    contentfulBlogPost {
+query($slug: String!) {
+    contentfulBlogPost(slug: { eq: $slug })  {
         title
         publishedDate(formatString: "Do MMMM, YYYY")
         featuredImage {
