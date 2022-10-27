@@ -11,7 +11,7 @@ query($slug: String!) {
         title
         publishedDate(formatString: "Do MMMM, YYYY")
         featuredImage {
-          gatsbyImageData
+          gatsbyImageData(width: 1000, placeholder: BLURRED, formats: AUTO)
         }
         body {
             raw

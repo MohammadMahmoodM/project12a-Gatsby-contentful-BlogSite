@@ -24,12 +24,19 @@
   font-weight: 300;
   letter-spacing: 0.02em;
 }
+.featured{
+  display: block;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
 .button {
   font-size: 14px;
   font-weight: 300;
   text-align: center;
   padding: 20px 0;
 }
+
 .button a {
   color: #555;
   padding: 8px 12px;

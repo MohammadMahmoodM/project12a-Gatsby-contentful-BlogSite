@@ -21,7 +21,7 @@ const Blog = () => {
                 }
               }
               featuredImage {
-                gatsbyImageData(width: 200, placeholder: BLURRED, formats: AUTO)
+                gatsbyImageData(width: 1000, placeholder: BLURRED, formats: AUTO)
               }
             }
           }
@@ -33,7 +33,6 @@ const Blog = () => {
     <Layout >
       <Seo title="Blog" />
       <h1>Hi from the second page</h1>
-      <p>Welcome to page 2</p>
       <p>
         <Link to="/">Go back to the homepage</Link>
       </p>
